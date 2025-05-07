@@ -122,7 +122,7 @@ function App() {
         <p className="text-base/loose text-center mb-10 opacity-50" 
         data-aos="fade-up" data-aos-duration="3000" data-aos-delay="200">
         Mari terhubung dengan saya.</p>
-        <form action="https://formsubmit.co/faiqmisbah019@g mail.com" method="POST"
+        <form action="https://formsubmit.co/faiqmisbah019@gmail.com" method="POST"
          className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-md" autoComplete="off" 
          data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500">
           <div className="flex flex-col gap-6">

@@ -2,7 +2,7 @@
   "name": "react-portofolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/faiqmisbah/react-portofolio/",
+  "homepage": "https://faiqmisbah.github.io/react-portofolio/",
   "type": "module",
   "scripts": {
     "predeploy" : "npm run build",
