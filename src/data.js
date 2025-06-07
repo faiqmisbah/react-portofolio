@@ -109,6 +109,8 @@ export const listTools = [
 import Proyek1 from "/assets/proyek/proyek1.webp";
 import Proyek2 from "/assets/proyek/proyek2.webp";
 import Proyek3 from "/assets/proyek/proyek3.webp";
+import Proyek4 from "/assets/proyek/proyek4.webp";
+import Proyek5 from "/assets/proyek/proyek5.webp";
 
 
 export const listProyek = [
@@ -131,9 +133,25 @@ export const listProyek = [
   {
     id: 3,
     gambar: Proyek3,
-    nama: "Web Pemilu",
+    nama: "Website Pemilu",
     desk: "Website untuk mengelola pemilihan umum",
     tools: ["HTML", "CSS", "Javascript", "Bootstrap"],
+    dad: "400",
+  },
+  {
+    id: 4,
+    gambar: Proyek4,
+    nama: "Aplikasi Food Delivery",
+    desk: "Aplikasi untuk Pemesanan dan Pengiriman Makanan",
+    tools: ["Flutter", "Dart", "Firebase"],
+    dad: "500",
+  },
+  {
+    id: 5,
+    gambar: Proyek5,
+    nama: "Website FoodGo",
+    desk: "Website yang terintegrasi dari aplikasi Food Delivery yang dibuat untuk pengelolaan pengiriman dan pemesanan makanan",
+    tools: ["Laravel", "Firebase", "PHP"],
     dad: "400",
   },
 ];
