@@ -1,8 +1,26 @@
 @import "tailwindcss";
 
 @layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+    
     body{
         font-family: "Poppins", sans-serif;
+    }
+}
+
+@layer utilities {
+    .transition-all-300 {
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .hover-lift:hover {
+        transform: translateY(-8px);
+    }
+    
+    .hover-scale:hover {
+        transform: scale(1.05);
     }
 }
 

@@ -1,4 +1,4 @@
-import HeroImage from "/assets/hero-img.webp";
+import HeroImage from "/assets/foto-hero.webp";
 
 const Image = {
   HeroImage,
@@ -111,6 +111,7 @@ import Proyek2 from "/assets/proyek/proyek2.webp";
 import Proyek3 from "/assets/proyek/proyek3.webp";
 import Proyek4 from "/assets/proyek/proyek4.webp";
 import Proyek5 from "/assets/proyek/proyek5.webp";
+import Proyek6 from "/assets/proyek/proyek6.webp";
 
 
 export const listProyek = [
@@ -153,5 +154,13 @@ export const listProyek = [
     desk: "Website yang terintegrasi dari aplikasi Food Delivery yang dibuat untuk pengelolaan pengiriman dan pemesanan makanan",
     tools: ["Laravel", "Firebase", "PHP"],
     dad: "400",
+  },
+  {
+    id: 6,
+    gambar: Proyek6,
+    nama: "Design System JAKI",
+    desk: "Design system komprehensif untuk aplikasi JAKI dengan komponen UI yang konsisten, guidelines, dan dokumentasi lengkap",
+    tools: ["Figma"],
+    dad: "600",
   },
 ];

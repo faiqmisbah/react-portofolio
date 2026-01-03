@@ -3,21 +3,25 @@ const Footer = () => {
     <div className="mt-32 py-4 flex md:flex-row flex-col gap-6 md:gap-0 justify-between items-center">
         <h1 className="text-2xl font-bold">Portofolio</h1>
         <div className="flex gap-7">
-            <a href="#beranda">Beranda</a>
-            <a href="#tentang">Tentang</a>
-            <a href="#proyek">Proyek</a>
+            <a href="#beranda" className="hover:text-violet-400 transition-colors">Beranda</a>
+            <a href="#tentang" className="hover:text-violet-400 transition-colors">Tentang</a>
+            <a href="#proyek" className="hover:text-violet-400 transition-colors">Proyek</a>
         </div>
         <div className="flex items-center gap-3">
-            <a href="https://github.com/faiqmisbah" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/faiqmisbah" target="_blank" rel="noopener noreferrer" 
+            className="hover:text-violet-400 transition-all-300 hover:scale-110">
                 <i className="ri-github-fill ri-2x"></i>
             </a>
-            <a href="https://www.instagram.com/faiqmisbah_/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/faiqmisbah_/" target="_blank" rel="noopener noreferrer"
+            className="hover:text-violet-400 transition-all-300 hover:scale-110">
                 <i className="ri-instagram-fill ri-2x"></i>
             </a>
-            <a href="https://wa.me/6285218555204" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/6285218555204" target="_blank" rel="noopener noreferrer"
+            className="hover:text-violet-400 transition-all-300 hover:scale-110">
                 <i className="ri-whatsapp-fill ri-2x"></i>
             </a>
-            <a href="https://www.youtube.com/@faiqmisbahy" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/@faiqmisbahy" target="_blank" rel="noopener noreferrer"
+            className="hover:text-violet-400 transition-all-300 hover:scale-110">
                 <i className="ri-youtube-fill ri-2x"></i>
             </a>
         </div>
